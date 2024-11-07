@@ -1,0 +1,209 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: Medium;
+    src: url('../fonts/Medium.otf');
+}
+
+@font-face {
+    font-family: ClashDisplay-Semibold;
+    src: url('../fonts/Satoshi-Bold.ttf');
+}
+
+body {
+    background-color:#191919;
+}
+
+header {
+    background-color: #191919; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+header img {
+    padding: 5px 0px;
+    max-width: 140px;
+}
+
+.titel {
+    max-width: 250px;
+}
+
+h1 {
+    font-family: 'Medium';
+    font-size: 35px;
+    padding: 20px 10px 0px; 
+    color: white;
+
+}
+
+p {
+    margin: 10px;
+    color: #eeeeee;
+    font-family: 'ClashDisplay-Semibold';
+    font-size: 16px;
+
+}
+
+.purple p {
+    color: #f0f0f0;
+}
+
+.topimg {
+    height: 210px;
+    background-image: url(../images/amsterdam.jpg);
+    background-repeat: no-repeat;
+}
+
+.topimg hr {
+    background-color: white;
+}
+
+.topimg img {
+    max-width: 100px;
+    margin: 0;
+}
+
+.bottomhome {
+    height: 442px;
+    background-image: url(../images/homebackground.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.bottomhome h2 {
+    color: #f0f0f0;
+    padding-top: 75px;
+}
+
+.bottomhome p {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.bottomhome div img {
+    max-width: 120px;
+    margin: 10px;
+}
+
+.tallerimg {
+    max-height: 45px;
+    max-width: 30px;
+    padding-bottom: 0;
+}
+
+.bottomhome p {
+    color: #191919;
+}
+
+.purple {
+    background-color: #4100d3 ;
+    width: 375px;
+    background-repeat: no-repeat;
+    background-image: url(../images/greytopurple.jpg);
+}
+
+.purple {
+    padding-bottom: 30px;
+}
+
+.purple h2 {
+    padding-top: 75px;
+}
+
+.grey {
+    background-color: #191919;
+    background-image: url("../images/purpletogrey.jpg");
+    height: 450px;
+    width: 375px;
+    background-repeat: no-repeat;
+}
+
+.grey h2 {
+    padding-top: 125px;
+    margin-top: 0;
+}
+
+section div img {
+    margin: 10px;
+    max-width: 150px;
+    max-height: max-content;
+    border-radius: 26px;
+}
+
+section h2 {
+    font-family: 'Medium';
+    color: white;
+    margin: 20px 10px 0px;
+}
+
+section hr {
+    margin: 5% 30% 0% 30%;
+    background-color: white;
+    margin: 0 50px 30px 0;
+    height: 9px;
+    border: none;
+}
+
+.bottomhome hr {
+    background-color: #f0f0f0;
+}
+
+.purple hr {
+    background-color: #f0f0f0;
+}
+
+.purple h2 {
+    color: white;;
+}
+
+.titelhr {
+    margin: 5% 30% 0% 30%;
+    background-color: white;
+    margin: 0 0 30px 10px;
+    height: 10px;
+    border: none;
+}
+
+section div {
+    display: flex;
+}
+
+.about img {
+    max-width: 100px;
+}
+
+.box {
+    width: 375px;
+    height: 66px;
+}
+
+footer nav img {
+    max-width: 40px;
+    padding: 10px 30px 4px;
+    margin: 0px 10px;
+}
+
+footer ul {
+    display: flex;
+}
+
+footer nav {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #191919;
+    max-height: 66px;
+}   
